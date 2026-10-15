@@ -1,9 +1,8 @@
 """
-URL configuration for mywebsite project.
+URL config for mywebsite
 
-The `urlpatterns` list routes URLs to views. For more information please see:
-    https://docs.djangoproject.com/en/5.2/topics/http/urls/
-Examples:
+can be accessed via  __doc__ or help()!!!!!!!
+
 Function views
     1. Add an import:  from my_app import views
     2. Add a URL to urlpatterns:  path('', views.home, name='home')
@@ -16,6 +15,8 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+
+from my
 
 urlpatterns = [
     path('admin/', admin.site.urls),
