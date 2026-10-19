@@ -1,9 +1,9 @@
 <html lang="en"> 
 
 <head> 
+  <link rel="stylesheet" href="style.css">
   <style>
     body{
-      background-color: #F2FAFD;
       font-family: Times New Roman;
     }
     p{
@@ -12,24 +12,43 @@
     h1{
       font-size: 30px;
       text-align: center;
-      }
+    }
+    ul {
+      font-size: 20px;
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      background-color: #827788;
+      overflow: hidden;
+    }
+    ul li {
+      float: left;
+    }
+    ul li a {
+      display: block;
+      color: black;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
   </style>
   <title>Clara's Website</title>
-  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+ <div class = "flex-container>
+    <span class = "left-text">  Clara Brandt</span>
+    <span class = "right-text"> brandtclara@web.de</span>
+ </div>
+  <ul>
+    <li><a href= https://clarab.pythonanywhere.com>                   Home</a></li>
+    <li><a href = https://clarab.pythonanywhere.com/About-Me>         About Me</a></li>
+    <li><a href = https://clarab.pythonanywhere.com/Coding-Projects>  Coding Projects</a></li>
+  </ul>
   <header>
     <h1>Welcome to my Website!</h1>
   </header>
-
-  <nav class="navbar">
-    <a href="https://....com/">Home</a>
-    <a href="https://....com/About-Me">About Me</a>
-    <a href="https://....com/Coding-Projects">Coding Projects</a>
-  </nav>
-
-<p>Hi my name is Clara!</p>
+  <p>Hi my name is Clara!</p>
 </body>
 
 </html>
